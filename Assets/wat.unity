@@ -206,6 +206,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &30732865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1021036018466182679, guid: 20b72e1363f27fb41973f7701e7fa890, type: 3}
+  m_PrefabInstance: {fileID: 1021036018446017622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &30732868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30732865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb9ef448e73ad748af350d329795de5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEdge: 20
+  secondsBetweenAppleDrops: 1
 --- !u!1 &1805397457
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,7 +332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1021036018466182676, guid: 20b72e1363f27fb41973f7701e7fa890, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1021036018466182676, guid: 20b72e1363f27fb41973f7701e7fa890, type: 3}
       propertyPath: m_LocalPosition.z
